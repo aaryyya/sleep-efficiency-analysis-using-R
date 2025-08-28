@@ -14,7 +14,7 @@ This project predicts **Sleep Efficiency** (ratio of time asleep to time in bed)
   * Evaluation metrics: R², RMSE, MAE
 * **Best Model**: Random Forest + RFE-selected \~8 features (R² ≈ 0.90)
 * **Deployment**: Interactive Shiny app for real-time predictions
-* **Explainability**: Feature importance & interpretability methods included (Permutation Importance, PDP/ICE, optional SHAP)
+* **Explainability**: Feature importance & interpretability methods included.
 
 ---
 
