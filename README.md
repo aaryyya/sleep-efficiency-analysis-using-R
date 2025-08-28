@@ -18,18 +18,7 @@ This project predicts **Sleep Efficiency** (ratio of time asleep to time in bed)
 
 ---
 
-## 📂 Project Structure
 
-```
-project/
-├─ data/                  # Raw and processed data
-├─ artifacts/             # Saved model, preprocessor, selected features
-├─ R/                     # R scripts for each pipeline stage
-├─ app/                   # Shiny app code
-└─ README.md              # This file
-```
-
----
 
 ## 🖥️ Shiny App
 
@@ -53,18 +42,23 @@ The app allows users to input:
 ![Output in the Shiny App](image.png)
 
 
-### Feature Importance using different Feature Selection Methods(Barplots)
+### Feature Importance using different Feature Selection Methods (Barplots)
+
 
 * Lasso Regreesion as Feature Selection Bar Plot for different Models.
+
  ![Lasso Regression](image-2.png)
 
 * ANOVA as Feature Selection Bar Plot for different Models.
+
  ![ANOVA ](image-3.png)
 
 * RFE as Feature Selection Bar Plot for different Models.
+
 ![alt text](image-4.png)
 
-* Forwardfs as Feature Selection Bar Plot for different Models.
+* ForwardFS as Feature Selection Bar Plot for different Models.
+
 ![alt text](image-5.png)
 
 
